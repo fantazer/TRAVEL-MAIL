@@ -1,0 +1,209 @@
+@import "foundation";
+
+
+  .head {
+    background: $dark;
+    width: 100%;
+  }
+
+  .head .columns {
+    padding-bottom: 0;
+  }
+
+  .head p {
+    color: #fff;
+    padding-top: 15px;
+  }
+
+  .head .wrapper-inner {
+    padding: 10px;
+  }
+
+  .head .container {
+    background: transparent;
+  }
+
+
+.main-btn{
+  padding: 10px 20px!important;
+}
+
+.logo-main{
+  margin-top: 5px;
+}
+
+.main-btn{
+  margin-bottom: 0!important;
+}
+.text__enter{
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.phone{
+  color: white;
+  margin-right: 10px;
+}
+
+/* footer */
+ .footer {
+    background: $blue;
+    width: 100%;
+    span{
+      color:white;
+    }
+  }
+
+  .footer--sub {
+    background: $dark;
+    width: 100%;
+    span{
+      color:white;
+    }
+  }
+
+  .footer .columns {
+    padding-bottom: 0;
+  }
+
+  .footer p {
+    color: #fff;
+    padding-top: 15px;
+  }
+
+  .footer .wrapper-inner {
+    padding: 20px;
+  }
+
+  .footer .container {
+    background: transparent;
+  }
+
+/* TEXT */
+.md__text{
+  font-size: 14px!important;
+}
+.small__text{
+  font-size: 12px;
+}
+.text--lg{
+  font-size: 24px;
+}
+.text--bold{
+  font-weight: bold;
+}
+.text--yellow{
+  color: $yellow;
+}
+.text--underline{
+  text-decoration: underline;
+}
+.text--blue-light{
+  color: #009fc9;
+}
+/* TEXT end */
+
+.bron__info{
+  .wrapper-inner {
+      border: 1px solid;
+      padding: 20px;
+    }
+    th{
+      padding-left: 0!important;
+    }
+}
+
+hr{
+  margin: 0;
+  margin-bottom: 10px;
+}
+su{
+  color: red;
+}
+.free-padding{
+  th{
+    padding-left: 0!important;
+  }
+}
+
+.exc__el{
+  .wrapper-inner {
+      border: 1px solid #d7d7d7;
+      padding: 10px;
+      padding-bottom: 0;
+    }
+    th{
+      padding-left: 0!important;
+    }
+    
+}
+
+.exc__el-info{
+  padding-right: 0!important;
+  .wrapper-inner {
+      padding: 0;
+      padding-left: 10px;
+      border: 0px;
+    }
+}
+.good-bron__img{
+  max-width: 150px!important;
+}
+.social__row{
+ .menu-item{
+   padding-right: 0!important;
+   text-align: left!important;
+ }
+}
+
+.good-bron-sub-title{
+  display: block;
+}
+/* media */
+/* Small only */
+@media screen and (max-width: 596px) {
+  .good-bron__img{
+    width: 100%!important;
+    width: 300px!important;
+    margin: 0 auto;
+  }
+
+  .exc__el-info{
+      .wrapper-inner {
+        padding-left: 0px;
+      }
+  }
+  h1{
+    font-size: 18px;
+  }
+
+  .free-padding{
+    table.body .columns{
+      padding-left: 0!important;
+    }
+  }
+}
+
+table.button table td a{
+  padding: 10px 20px; 
+  font-weight: 600;
+}
+
+.exc__el-price{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  display: block;
+}
+
+
+.check-row{
+  img{
+    display: inline!important
+  }
+}
+
+.good-bron-title{
+  font-size: 18px;
+}
