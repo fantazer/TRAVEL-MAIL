@@ -1516,3 +1516,13 @@ table.button table td a {
 
 .good-bron-title {
   font-size: 18px; }
+
+.pl-0 {
+  padding-left: 5 !important; }
+
+.td__enter {
+  padding-left: 10px;
+  padding-top: 10px; }
+
+.head-container {
+  width: 590px !important; }

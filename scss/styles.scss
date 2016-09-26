@@ -1,6 +1,5 @@
 @import "foundation";
 
-
   .head {
     background: $dark;
     width: 100%;
@@ -9,7 +8,6 @@
   .head .columns {
     padding-bottom: 0;
   }
-
   .head p {
     color: #fff;
     padding-top: 15px;
@@ -22,8 +20,6 @@
   .head .container {
     background: transparent;
   }
-
-
 .main-btn{
   padding: 10px 20px!important;
 }
@@ -207,3 +203,17 @@ table.button table td a{
 .good-bron-title{
   font-size: 18px;
 }
+
+.pl-0{
+  padding-left: 5 !important;
+}
+
+.td__enter{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.head-container{
+  width: 590px !important;
+}
+
